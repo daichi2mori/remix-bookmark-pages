@@ -14,8 +14,8 @@
 		"preview": "bun run build && wrangler pages dev",
 		"cf-typegen": "wrangler types",
 		"generate": "drizzle-kit generate",
-		"local:migration": "wrangler d1 migrations apply d1-tutorial --local",
-		"remote:migration": "wrangler d1 migrations apply d1-tutorial --remote"
+		"local:migration": "wrangler d1 migrations apply remix-bookmark --local",
+		"remote:migration": "wrangler d1 migrations apply remix-bookmark --remote"
 	},
 	"dependencies": {
 		"@remix-run/cloudflare": "^2.11.1",
