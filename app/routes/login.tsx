@@ -5,7 +5,7 @@ import { getAuthenticator } from "~/services/auth.server";
 export const loader = async ({ request, context }: LoaderFunctionArgs) => {
 	const authenticator = getAuthenticator(context);
 	return await authenticator.isAuthenticated(request, {
-		successRedirect: "/",
+		successRedirect: "/user",
 	});
 };
 
