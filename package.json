@@ -19,6 +19,7 @@
 	},
 	"dependencies": {
 		"@remix-pwa/dev": "^3.1.0",
+		"@remix-pwa/worker-runtime": "^2.1.4",
 		"@remix-run/cloudflare": "^2.11.1",
 		"@remix-run/cloudflare-pages": "^2.11.1",
 		"@remix-run/react": "^2.11.1",
